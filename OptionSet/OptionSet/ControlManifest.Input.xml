@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="AaronricControls" constructor="OptionSet" version="0.0.2" display-name-key="Option Set" description-key="OptionSet Selector" control-type="standard">
+    <property name="optionset" display-name-key="Primary Option Set" description-key="Select option" of-type="OptionSet" usage="bound" required="true" />
+  
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="css/OptionSet.css" order="1"/>
+    </resources>
+
+  </control>
+</manifest>
+

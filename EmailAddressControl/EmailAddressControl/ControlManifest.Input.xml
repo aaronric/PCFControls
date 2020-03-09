@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="AaronricControls" constructor="EmailAddressControl" version="0.0.1" display-name-key="EmailAddressControl" description-key="EmailAddressControl description" control-type="standard">
+
+    <property name="EmailProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/EmailAddressControl.css" order="1" />
+     
+    </resources>
+
+  </control>
+</manifest>
